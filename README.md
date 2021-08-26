@@ -45,7 +45,9 @@
    By using and/or copying this project, or the license document from which this statement is linked, you (the licensee) agree that you have read, understood, and    will comply with conditions of use.
    View License information attached link
     https://github.com/AndrewIndeche/javascriptproject/blob/master/LICENSE
-
+<h1>Errors</h1>
+Previous Angular App that was deployed got errors,see link for commits 
+https://github.com/AndrewIndeche/quote-app
 
 Set up Instructions
 =======
