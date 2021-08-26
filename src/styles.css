@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import '~font-awesome/css/font-awesome.css';
+
+body { background:url(./assets/background.jpg); color:white;}
+
+.h1{
+text-align: center;
+}
+form {
+ width: 300px;
+ height: 300px;
+ margin: auto;
+ position: relative;
+}
+.container-fluid{
+  background-color: rgba(137, 196, 244, 0.2);
+  border-radius: 4px;
+  padding-bottom: 6%;
+  padding-top: 5%;
+  padding-left:5%;
+  padding-right: 5%;
+  box-shadow: 2px 2px 3px 2px black;
+  margin-bottom: 5%;
+}
+
+html, body { height: 100%;}
+body { margin: 0; font-family: 'Special Elite' }
