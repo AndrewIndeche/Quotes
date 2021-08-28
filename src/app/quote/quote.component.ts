@@ -10,10 +10,13 @@ export class QuoteComponent implements OnInit {
   MyQuotes:Quote []=[
      new Quote(0,'Mark','celebrity quote','I dont really think i just walk','Paris Hilton',new Date(2006,7,6),0,0),
    ];
+   toggleDetails(index) {
+    this.MyQuotes[index].moreDetails = !this.MyQuotes[index].moreDetails;
+  }
       addNewQuote(Quote){
        let QuoteLength = this.MyQuotes.length;
        Quote.id = QuoteLength+1;
-       Quote.completeDate = new Date(Quote.completeDate);
+       Quote.completeDate = new Date();
        this.MyQuotes.push(Quote);
       }
    removeQuote(toDelete, index){
@@ -26,10 +29,12 @@ export class QuoteComponent implements OnInit {
 
    }
  }
-
+ displayInfo(index){
+ this.MyQuotes[index].moreDetails = !this.MyQuotes[index].moreDetails;
+   }
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }

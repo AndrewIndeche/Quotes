@@ -16,6 +16,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { HighligtVoteDirective } from './highligt-vote.directive';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { VotesComponent } from './votes/votes.component';
 
 
 
@@ -26,7 +27,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     QuoteDetailComponent,
     QuoteFormComponent,
     DatePipePipe,
-    HighligtVoteDirective
+    HighligtVoteDirective,
+    VotesComponent
   ],
   imports: [
     BrowserModule,

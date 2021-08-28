@@ -1,5 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import '~font-awesome/css/font-awesome.css';
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body { background:url(./assets/background.jpg); color:white;}
 
@@ -24,4 +25,3 @@ form {
 }
 
 html, body { height: 100%;}
-body { margin: 0; font-family: 'Special Elite' }
