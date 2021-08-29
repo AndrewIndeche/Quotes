@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 # Quote
-=======
-   </head>
+  </head>
     <body>
     <h1>Quote App<h1>
      <h2>Project description</h2>
@@ -26,7 +25,7 @@
     </div>
     </div>
     <h1>Project Set-up Instructions</h1>
-<<<<<<< HEAD
+   HEAD
      <ul>
      <li>MkDir</li>
      <li>ng create angular project</li>
