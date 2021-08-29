@@ -1,15 +1,15 @@
-.container-fluid{
-}
-input[type=text],textarea{
-  border:1px solid #00BFFF;
-}
-
 .card{
 background-color: rgb(43, 161, 199);
-padding-top: 80px;
-padding-bottom: 40px;
+padding-top: 3px;
+padding-bottom: 30px;
 padding-right:100px;
 padding-left:80px;
 align-items: center;
 spacing:4px;
+display:flex;
+flex-direction: column;
+}
+.container-fluid{
+  display:flex;
+  flex-direction: row;
 }

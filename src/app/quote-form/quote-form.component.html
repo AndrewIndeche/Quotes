@@ -2,7 +2,7 @@
   <div class="card">
    <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
      <h2>Input your Quote Here</h2>
-  <div class="form-group">
+      <div class="form-group">
     <label for="InputName">Enter your Name here</label>
     <input type="text" class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name='ngModel' required>
     <div [hidden]="name.valid || name.pristine" class="alert alert-danger">

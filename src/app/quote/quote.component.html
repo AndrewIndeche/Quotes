@@ -2,8 +2,7 @@
 <h2 style="text-align:center">Share, View and Rate Quotes</h2>
 <div class="container-fluid">
     <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
-    </div>
-      <div class="container-fluid">
+     <div class="container-fluid">
       <div class="col-w-2" style="width: 40rem;">
       <div *ngFor='let MyQuote of MyQuotes; let i= index;'>
        <div class="card" id="card1">
@@ -15,8 +14,8 @@
           <app-quote-detail *ngIf="MyQuote.moreDetails" [quote]="MyQuote" (toDelete)="deleteQuote($event, i)"></app-quote-detail>
           <app-votes></app-votes>
             <div class="container-fluid" id="buttons">
-          <button class="btn btn-sm btn-danger" id="del" (click)='removeQuote(true)'><i class="fa fa-trash" id="delete"></i></button>
+             <button class="btn btn-sm btn-danger" id="del" (click)='removeQuote(true)'><i class="fa fa-trash" id="delete"></i></button>
              </div>
            </div>
       </div>
-  </div>
+      </div>
