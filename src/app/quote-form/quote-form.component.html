@@ -1,10 +1,14 @@
 <div class="container">
-  <div class="card">
-   <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
-     <h2>Input your Quote Here</h2>
-      <div class="form-group">
+     <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+  <div class="text-center">
+     <h3 class="white-text">Type Your Quote
+   </h3>
+  <hr class="hr-light">
+</div>
+
+      <div class="md-form">
     <label for="InputName">Enter your Name here</label>
-    <input type="text" class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name='ngModel' required>
+    <input type="text" class="form-control" id="form3" [(ngModel)]="newQuote.name" name="name" #name='ngModel' required>
     <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
         <p>Name is required</p>
           </div>
