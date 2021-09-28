@@ -17,6 +17,7 @@ import { HighligtVoteDirective } from './highligt-vote.directive';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { VotesComponent } from './votes/votes.component';
+import { TimeCountPipe } from './time-count.pipe';
 
 
 
@@ -28,13 +29,14 @@ import { VotesComponent } from './votes/votes.component';
     QuoteFormComponent,
     DatePipePipe,
     HighligtVoteDirective,
-    VotesComponent
+    VotesComponent,
+    TimeCountPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    NgbModule 
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

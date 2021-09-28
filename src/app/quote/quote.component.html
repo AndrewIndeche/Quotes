@@ -11,6 +11,7 @@
           <p class="card-text text-white">{{MyQuote.description}}</p>
           <p class="card-text text-red">{{MyQuote.author}}</p>
           <p class="date"> {{MyQuote.datePosted|date:'short'}}</p>
+          <p class="time-count"> {{MyQuote.datePosted|timeCount:'short'}}</p>
           <app-quote-detail *ngIf="MyQuote.moreDetails" [quote]="MyQuote" (toDelete)="deleteQuote($event, i)"></app-quote-detail>
           <app-votes></app-votes>
             <div class="container-fluid" id="buttons">
