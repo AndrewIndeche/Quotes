@@ -13,10 +13,11 @@ import { MatCardModule} from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { HighligtVoteDirective } from './highligt-vote.directive';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { VotesComponent } from './votes/votes.component';
+import { TimeCountPipe } from './time-count.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 
 
@@ -27,14 +28,15 @@ import { VotesComponent } from './votes/votes.component';
     QuoteDetailComponent,
     QuoteFormComponent,
     DatePipePipe,
-    HighligtVoteDirective,
-    VotesComponent
+    VotesComponent,
+    TimeCountPipe,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    NgbModule 
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
