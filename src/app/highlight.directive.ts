@@ -1,9 +1,9 @@
 import { Directive } from '@angular/core';
 
 @Directive({
-  selector: '[appHighligtVote]'
+  selector: '[appHighlight]'
 })
-export class HighligtVoteDirective {
+export class HighlightDirective {
 
   constructor() { }
 
