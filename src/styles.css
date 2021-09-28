@@ -1,8 +1,14 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import '~font-awesome/css/font-awesome.css';
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 
-body { background:url(./assets/blackpanther.jpg); color:white;}
+body { background:url(./assets/blackpanther.jpg); color:white;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: 'Rye', cursive;
+     }
 
 .h1{
 text-align: center;
@@ -12,16 +18,12 @@ form {
  height: 300px;
  margin: auto;
  position: relative;
-}
-.container-fluid{
-  background-color: rgba(137, 196, 244, 0.2);
-  border-radius: 4px;
-  padding-bottom: 6%;
-  padding-top: 5%;
-  padding-left:5%;
-  padding-right: 5%;
-  box-shadow: 2px 2px 3px 2px black;
-  margin-bottom: 5%;
+ background-color: rgba(229, 228, 255, 0.2)
 }
 
+
 html, body { height: 100%;}
+
+.card{
+  background-color: rgba(229, 228, 255, 0.2);
+}
